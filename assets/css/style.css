@@ -1,0 +1,68 @@
+/* my font style */
+#hello h1, #hello h2, #green, #container h3, #container p, #skills h3, #skills p, #social h3, #social p{ 
+	font-family: "游明朝", YuMincho,"ヒラギノ明朝 Pr6 W6";
+}
+
+#hello h1 { 
+	color: #fff;
+	font-size: 140px;
+	font-weight: 700;
+}
+#hello h2 { color : #fbfbfb;}
+#hello  h1 span { font-size: 80px;}
+.nav-under i {
+	font-size: 36px;
+	color: #ffffff;
+}
+#skills h3 { font-size: 26px;}
+#skills p { font-size: 22px;}
+
+/* my style */
+
+/* #navbar */
+.navbar.navbar-default.navbar-fixed-top { background-color: #FEFFF8;}
+/* #hello */
+#hello { 
+	background-image: url(../img/maxresdefault.jpg);
+	position: relative;
+}
+#hello::before { 
+	content : "";
+	width: 100%;
+	height: 100%;
+	background-color: #7B7B7B;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	left: 0;	
+} 
+#hello  h1 { margin-top: 10px;}
+#hello h2 { padding-bottom: 70px;}
+button.nav-under {
+	width: 60px;
+	height: 60px;
+	background-color: #A1CBEA;
+}
+button.img-circle.nav-under { outline: none;}
+button.nav-under i {}
+
+/* green */
+#green {
+	padding-top: 45px;
+	padding-bottom: 45px;
+	background-color: #A1CBEA;
+}
+
+@media screen and ( min-width: 1200px){
+	#green .centered { position: relative;}
+	#green .centered img { 
+		position: absolute;
+		top: -47px;
+		left: 100px;
+	}
+}
+/* container */
+
+/* #f */
+#f { background-color: #414B54;}
+
